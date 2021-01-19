@@ -1,0 +1,35 @@
+A galaxy has multiple planetary systems.
+
+Each planetary system has one star and at least
+one planet (use arrays).
+
+A star can be of different types: 
+(red dwarf, neutron star, hot blue, black-hole).
+
+Each planet can have zero or more satellites. 
+A satellite can be either a Moon or a Machine.
+
+Each planet has an index that defines it's order from the star. 
+E.g: the closest planet to the star has index 0, 
+the second closest has index 1, and so on... 
+Same goes for the satellites
+
+Create a galaxy with a few planetary systems
+(each with a different number of planets) and simulate.
+
+
+
+
+Simulation -> using methods define the following behaviours.
+A planetary system can collapse its star.
+When a star collapses, it destroys all planets staring from the closest one.
+If it's a black-hole it will destroy everything right-away.
+When a planet is destroyed, it will destroy it's satellites starting from the closest one.
+Make sure to implement all constraints in the constructors or another class method.
+E.g: a star can belong to only one system, same goes for the planets. A satellite can belong to only one planet ecc...
+If the constraints are not respected, then an error should be thrown...
+---------------------------------------------------------------
+There is NOT ONLY ONE RIGHT SOLUTION, so model the galaxy as best as you can (search terms on the internet if necessary). Feel free to add as many inheritance-classes as you need.
+The more description you give to objects, the better.
+The whole goal is to run (e.g.) galaxy.collapseStarOfSystems(system1, system4) and see the console.logs in action
+---------------------------------------------------------------
